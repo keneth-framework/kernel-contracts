@@ -8,7 +8,7 @@ class RequestHandlerInterface(ABC):
     """
 
     @abstractmethod
-    async def handle(self, request: Request) -> Response:
+    async def handle_request(self, request: Request) -> Response:
         """
         Process the request and return a response.
 
